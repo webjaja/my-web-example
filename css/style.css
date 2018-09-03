@@ -1,0 +1,171 @@
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:15px;
+	margin:0;
+	padding:0;
+	line-height:1.5;
+}
+/*global staff*/
+#body{
+background-color: #eee;
+}
+span.active{
+	color:blue;
+	font-weight: bold;
+}
+.current{
+	background-color: steelblue;
+	padding:10px;
+	border-radius: 4px;
+}
+/*global*/
+#main-header{
+	overflow:hidden;
+	background-color: grey;
+	border-bottom: 3px solid blue;
+	
+}
+.main-header{
+	position: fixed;
+	width: 100%;
+	top:0;
+	overflow: auto;
+}
+#main-header h3{
+	float: left;
+	font-size:20px;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+#main-header ul{
+float:right;
+list-style-type: none;
+}
+#main-header li{
+	display: inline-block;
+	padding:10px;
+}
+#main-header a{
+text-transform:uppercase;
+font-weight: bold;
+text-decoration: none;
+color:#000;
+}
+#main-header a:hover{
+	background-color: steelblue;
+	padding:10px;
+	border-radius: 4px;
+}
+
+#showcase{
+	overflow: hidden;
+	background-image: url('../images/codes2.jpg');
+	background-size: cover;
+	background-position: center;
+	height:80vh;
+	text-align: center;
+	color: ghostwhite;
+}
+#showcase h1{
+	padding-top:180px;
+	text-transform:uppercase;
+	font-size:40px;
+	padding-bottom: 0px;
+}
+#showcase p{
+	text-transform:uppercase;
+	font-size:20px;
+	word-spacing: 10px;
+}
+#newsletter{
+	overflow: hidden;
+	background-color: grey;
+	border-bottom: 3px solid blue;
+}
+#newsletter h3{
+	float: left;
+	font-size:20px;
+	text-transform: uppercase;
+	padding-left: 100px;
+}
+#newsletter form{
+float:right;
+list-style-type: none;
+margin-top: 20px;
+padding-right: 100px;
+}
+#newsletter form input[type="email"]{
+	padding:8px;
+	text-align:center;
+	color: #fff;
+	background-color: #333;
+	margin-right:10px;
+	border:none;
+	border-radius:2px;
+}
+#newsletter form input[type="submit"]{
+	background-color: steelblue;
+	padding:7px;
+	border:none;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+#main-showcase{
+	background-color: lightblue;
+	padding:20px;
+}
+footer{
+	clear: both;
+	overflow: hidden;
+	background-color: grey;
+	border: 1px solid;
+	text-align: center;
+	color: #fff;
+}
+#about img{
+float: left;
+border-radius:50%;
+padding-left: 20px;
+padding-right: 10px;
+margin-bottom: 20px;
+}
+#about p{
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 100px;
+}
+#newsletter{
+	clear: both;
+}
+#blog{
+	margin-top: 100px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#blog header{
+	width:80%;
+}
+.container{
+}
+.container h3 {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: blue;
+}
+.container h5{
+	text-align:center;
+	color: lightblue;
+	font-size: 18px;
+}
+#blog-1{
+	background-color: yellow;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
